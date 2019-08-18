@@ -149,7 +149,7 @@ DO
         _PUTIMAGE (medx, 60), lifei
     END IF
 
-    IF (medx >= playerx) AND (medx <= playerx + 10) AND (playery + 10 >= 60) AND (playery <= 60) THEN
+    IF (medx >= playerx - 5) AND (medx <= playerx + 15) AND (playery >= 55) AND (playery <= 75) THEN
         life = life + 10
         medx = -30
     END IF
